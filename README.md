@@ -1,5 +1,5 @@
-**Podstawowe API dla quemu**
-Puki co zaimplementowałem tylko uruchamianie VM w trybie instalacji i zwykłego uruchomienia.
+**Podstawowe API dla qemu**
+Puki co zaimplementowałem tylko uruchamianie VM w trybie instalacji i zwykłego uruchomienia. 
 
 ## Flagi (patrz Uruchamianie żeby zobaczyć jak je wpisywać z argumentami)
 - **`-memory `** – Ilość RAMU dla VM 
