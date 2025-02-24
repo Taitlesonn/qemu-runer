@@ -3,13 +3,13 @@ import psutil
 
 class VM(object):
 
-    def __init__(self, rdzenie: int, memory: int, type: bool, patch_iso: str, mode: int, file: str, bild_file: bool, size_file: int, edd: bool):
+    def __init__(self, rdzenie: int, memory: int, type: bool, patch_iso: str, mode: int, file: str, bild_file: bool, size_file: int):
         self.file = file
         self.memory = memory
         self.cpu = rdzenie
         self.type = type
         self.iso = patch_iso
-        self.edd = edd
+        
         """
         rdzenie to ilość rdzeni przeznaczona na maszyne
         type to definiowanie czy maszyna jest już stworzona czy dopiero zaczynamy instalację

@@ -25,7 +25,7 @@ def main():
     parser.add_argument('-iso', type=str, help='Podaj ścieżkę do iso')
     parser.add_argument('-file', type=str, help='Określa, czy plik VM ma być stworzony (2) czy już istnieje (1), następnie podaj ścieżkę')
     parser.add_argument('-size_f', type=int, help='Jeśli tworzysz plik VM, podaj ilość GB (np. 50, a nie 50GB)')
-    parser.add_argument("-edd_off", type=int, help='1 = wyłączenie edd')
+    
 
     # Parsowanie argumentów
     args = parser.parse_args()
@@ -35,8 +35,7 @@ def main():
     cpu = args.cpu
     type_p = args.mode == "true"
     edd = False
-    if args.edd_off == 1:
-        edd = True
+   
 
     # Sprawdzanie ścieżki do ISO (wymagana, jeśli `mode` to instalacja)
     if not args.iso and not type_p:
