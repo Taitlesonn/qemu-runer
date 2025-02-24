@@ -19,7 +19,7 @@ Puki co zaimplementowałem tylko uruchamianie VM w trybie instalacji i zwykłego
 ```
 
 ## Problemy ?
-'''bash
+```bash
     source py/bin/activate #Uruhcamianie środowiska wirtualnego python z wgranymi bibliotekami
     python3 main.py --help
-'''
+```
