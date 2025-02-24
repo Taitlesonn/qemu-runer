@@ -17,3 +17,9 @@ Puki co zaimplementowałem tylko uruchamianie VM w trybie instalacji i zwykłego
     sudo python3 main.py -memory 4048 -cpu 4 -mode false -iso /home/admin/iso/ser2k22.iso -file 2/home/admin/image.img -size_f 40 
 
 ```
+
+## Problemy ?
+'''bash
+    source py/bin/activate #Uruhcamianie środowiska wirtualnego python z wgranymi bibliotekami
+    python3 main.py --help
+'''
