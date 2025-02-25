@@ -77,7 +77,7 @@ def main():
         bild_file=mode_f, 
         file=file, 
         size_file=size,
-        edd=edd
+        
     )
 
 if __name__ == "__main__":
